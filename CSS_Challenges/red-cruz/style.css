@@ -1,0 +1,59 @@
+body{
+    background: #191919;
+   
+}
+
+.back{
+    background-color: rgba(0, 0, 0, 0);
+    width: 200px;
+    height: 200px;
+    border: 50px solid #191919;
+    
+    border-radius: 0px;
+    top: -130px;
+    left: -100px;
+}
+
+
+div{
+    width: 100px;
+    height: 40px;
+    border-radius: 100vw;
+    background: #FE5F56;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+    
+    
+}
+
+.a{
+    /* top: 130px; */
+    
+   background: #A64942;
+}
+
+.one{
+    left: -70px;
+    top: -2px;
+    
+}
+
+.two{
+    left: 70px;
+    top: -2px;
+}
+.b{
+    transform: rotate(90deg);
+    left: 0px;
+    
+}
+
+.three{
+    top: -70px;
+    
+}
+.four{
+    top: 70px;
+}
+
