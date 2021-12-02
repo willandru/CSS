@@ -24,7 +24,7 @@ div h2, div h3{
 
 *{
     font-size: 24px;
-    color: black;
+    /* color: black; */
 }
 
 /*Esto es un comentario*/
@@ -106,4 +106,174 @@ div h2, div h3{
     scroll
     
     */
+
+    outline: 3px solid red;
 }
+
+.texto{
+    font-family: 'M PLUS 1 Code', 'Times New Roman';
+    text-align: center;
+    /* justify
+    right */
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px  blue;
+}
+
+a:link{
+    color: purple;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: blue;
+}
+
+
+ul{
+    background-color: crimson;
+    /* list-style-type: none;
+    padding-left: 0; */
+
+    list-style-position: inside;
+    list-style-type: georgian;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid 1px coral;
+    padding: 5px;
+
+   
+}
+
+th{
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+
+tr:nth-child(even){
+    background-color: greenyellow;
+}
+
+
+tr:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+  /*   display: none;
+    visibility: hidden; */
+
+    width: 300px;
+    max-width: 300px;
+    background-color: blue;
+}
+
+.inline{
+    display: inline;
+}
+
+
+#position{
+    position: sticky;
+/* fixed
+absolute
+sticky */
+
+    left: 20px;
+    top: 25px;
+}
+
+
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    height: 200px;
+}
+
+.right{
+    float: right;
+}
+
+
+.card{
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin: 0 ;
+    padding: 10px 0px ;
+    width: 33.3%;
+}
+
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: #f00;
+}
+
+.center{
+    padding: 50px 0;
+    width: 200px;
+    color: black;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
