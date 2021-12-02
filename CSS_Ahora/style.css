@@ -76,4 +76,20 @@ div h2, div h3{
     border-width: 2rem;
 }
 
+#fondo{
+    background-color: rgba(0,233,0);
+    /* opacity: 0.3; */
+    background-image: url('img.jpg');
+    height: 300px;
+    background-size: cover;
+    /* contain
+    cover
+    auto */
 
+    
+    background-repeat: repeat-y;
+    background-position: center top;
+
+    background: #f00 url('img.jpg') repeat-x center left /100px 100px;
+    background-size: 200px 200px;
+}
