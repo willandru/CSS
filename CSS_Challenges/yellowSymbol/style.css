@@ -1,0 +1,39 @@
+body{
+    background: #F3AC3C;
+    /* display: flex;
+    justify-content: center;
+    place-items: center; */
+    padding-top: 200px;
+    padding-left: 500px;
+   
+}
+
+div{
+    /* margin: 135 auto; */
+    background: #1A4341;
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1;
+    rotate: 45deg;
+
+    box-shadow: 0 0 0 40px #F3AC3C, 0 0 0 70px #998235;
+}
+
+div::before, div::after{
+    content: '';
+    position: absolute;
+    background: #F3AC3C;
+    width: 30px;
+    height: 50px;
+}
+
+
+div::before{
+    top:-70px;
+}
+
+div::after{
+    transform: rotate(90deg);
+    top: -10px;
+    left: -70px;
+}
